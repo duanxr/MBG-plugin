@@ -22,7 +22,7 @@ If you want to enable this plugin, add the following text to the context tag in 
 <plugin type="com.duanxr.migo.plugins.IsExistsPlugin"/>
 ```
 ## SerializablePlugin
-This plugin add Serializable interface to the model objects,compared with the official plugin, it can generate serialVersionUID based on class hash value.
+This plugin add Serializable interface to the model and example objects,compared with the official plugin, it can generate serialVersionUID based on class hash value.
 
 If you want to enable this plugin, add the following text to the context tag in your configuration file.
 ```
@@ -39,7 +39,7 @@ If true, the plugin will add the Google Web Toolkit (GWT) IsSerializable inter
 If true, the plugin will NOT add the java.io.Serializable interface. This is for the case where the objects should be serializable for GWT, but not in the strict Java sense. The default is false.
 
 ## JsonStringPlugin
-This plugin adds two new methods to your Mapper：
+This plugin adds two new methods to your model objects：
 * public String toJsonString();
     This method serializes model object into a Json string.
 * public static T parseJsonString(String jsonString);
@@ -57,7 +57,7 @@ If you want to enable this plugin, add the following text to the context tag in 
 ```
 This plugin accepts three properties:
 * addToExample True/False
-If true, the plugin will add the method to example model objects. The default is false.
+If true, the plugin will add the method to example model objects too. The default is false.
 * toJsonRuleList/parseJsonRuleList
 If you want to change the serialization/deserialization parameters, use [the fastjson SerializerFeature](https://github.com/alibaba/fastjson) as the value and multiple values with the comma.
 
