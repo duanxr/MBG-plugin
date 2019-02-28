@@ -1,4 +1,4 @@
-package com.duanxr.mgb.plugins.util;
+package com.duanxr.migo.utils;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;

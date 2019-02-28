@@ -1,6 +1,6 @@
-package com.duanxr.mgb.plugins;
+package com.duanxr.migo.plugins;
 
-import com.duanxr.mgb.plugins.util.SerialVersionUIDUtil;
+import com.duanxr.migo.utils.SerialVersionUIDUtil;
 import java.util.List;
 import java.util.Properties;
 import org.mybatis.generator.api.IntrospectedTable;

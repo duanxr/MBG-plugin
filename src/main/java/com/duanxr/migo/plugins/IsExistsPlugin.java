@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.duanxr.mgb.plugins;
+package com.duanxr.migo.plugins;
 
 import java.util.List;
 import org.mybatis.generator.api.IntrospectedColumn;

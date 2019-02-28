@@ -1,4 +1,4 @@
-package com.duanxr.mgb.plugins;
+package com.duanxr.migo.plugins;
 
 import java.util.ArrayList;
 import java.util.Arrays;
