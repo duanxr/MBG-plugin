@@ -3,14 +3,18 @@ Some MyBatis Generator plugins used in the work
 ## How to use 
 Download the code and install it using maven,If you don't know how to use maven, please google it.
 Add the following dependency to your MyBatis Generator configuration.
+
 ```
 <dependency>
       <groupId>com.duanxr</groupId>
       <artifactId>mi-go-plugin</artifactId>
       <version>1.0.0-SNAPSHOT</version>
 </dependency>
+
 ```
+
 ## IsExistsPlugin
+
 This plugin adds two new methods to your Mapper：
 * public boolean isExistsByExample(Example example);
 * public boolean isExistsByPrimaryKey(Long id);
