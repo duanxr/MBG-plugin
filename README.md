@@ -6,7 +6,7 @@ Add the following dependency to your MyBatis Generator configuration.
 ```
 <dependency>
       <groupId>com.duanxr</groupId>
-      <artifactId>mybatis-plugin</artifactId>
+      <artifactId>mi-go-plugin</artifactId>
       <version>1.0.0-SNAPSHOT</version>
 </dependency>
 ```
